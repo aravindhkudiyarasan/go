@@ -7,6 +7,6 @@ set -ex
 git apply -v ../patches/000-initial-setup.patch
 # Add the initial changes to the index so the later diff ignores them.
 git add .
-git config --local user.email "karavindh@zscaler.com"
-git config --local user.name "karavindh"
+git config --global user.email "karavindh@zscaler.com"
+git config --global user.name "karavindh"
 git commit -m phase1
